@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9bf888b8.css",
+    "main.js": "/static/js/main.d9f8702e.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/unblock.png": "/static/media/unblock.66187a3c9125e989a744.png",
+    "static/media/photobgm.png": "/static/media/photobgm.7d52f0e8263215858bea.png",
+    "static/media/weatheroid.png": "/static/media/weatheroid.8f71997b1d0b941db5ff.png",
+    "static/media/crypto.png": "/static/media/crypto.d441afa6516e513b15c7.png",
+    "static/media/ppp.jpg": "/static/media/ppp.cb1b9ceb147c13ed5f71.jpg",
+    "static/media/mike.png": "/static/media/mike.f94be1217bb089cb3778.png",
+    "static/media/covidstats.png": "/static/media/covidstats.d407ee46e678d60a1b70.png",
+    "static/media/Logo.png": "/static/media/Logo.b790b4e52ab3871ac934.png",
+    "static/media/acting.png": "/static/media/acting.cfbedbc945e0fb3a4226.png",
+    "static/media/numberguess.png": "/static/media/numberguess.ec9022c442b8c62d1d65.png",
+    "index.html": "/index.html",
+    "static/media/embed.svg": "/static/media/embed.f3cd6fd7de34171e69542b5864f0b3aa.svg",
+    "static/media/embed (1).svg": "/static/media/embed (1).b87abc46fa2b2387407a1e00e53c890d.svg",
+    "main.9bf888b8.css.map": "/static/css/main.9bf888b8.css.map",
+    "main.d9f8702e.js.map": "/static/js/main.d9f8702e.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bf888b8.css",
+    "static/js/main.d9f8702e.js"
+  ]
+}
