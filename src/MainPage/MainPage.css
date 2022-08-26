@@ -1,0 +1,17 @@
+.firstPage {
+  height: auto;
+  background-color: var(--dark-color);
+  overflow: hidden;
+}
+
+.firstPage-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .firstPage-main {
+    align-items: center;
+  }
+}

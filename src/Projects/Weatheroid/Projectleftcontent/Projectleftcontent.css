@@ -1,0 +1,49 @@
+.projectss-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  row-gap: 1rem;
+}
+@media only screen and (max-width: 600px) {
+  .projectss-left {
+    align-items: flex-start;
+  }
+}
+
+.projectss-left-titles {
+  font-size: 10rem;
+  color: rgb(23, 31, 58);
+}
+
+.projectss-left-paragraph {
+  line-height: 1.2rem;
+  text-align: right;
+  width: 90%;
+  color: rgb(23, 31, 58);
+}
+
+@media only screen and (max-width: 600px) {
+  .projectss-left-paragraph {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+}
+
+.projectss-left-tech {
+  display: flex;
+  column-gap: 2rem;
+  font-size: 0.9rem;
+  color: rgb(23, 31, 58);
+}
+
+@media only screen and (max-width: 600px) {
+  .projectss-left-tech {
+    font-size: 2.5rem;
+  }
+}
+
+.projectss-left-links {
+  display: flex;
+  column-gap: 2rem;
+}

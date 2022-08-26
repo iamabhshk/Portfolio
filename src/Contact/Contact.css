@@ -1,0 +1,139 @@
+.btn {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  color: transparent;
+  color: var(--dark-color);
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  transition: all 0.4s;
+  /* width: 10%; */
+  text-align: center;
+  padding: 1rem 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.623);
+}
+@media only screen and (max-width: 1200px) {
+  .btn {
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .btn {
+    font-size: 1.5rem;
+    padding: 1rem 4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .btn {
+    font-size: 1.6rem;
+    padding: 1rem 5rem;
+  }
+}
+.btn:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    var(--dark-color)
+  );
+  transform: scale(1.1);
+}
+.btn:active {
+  transform: translateY(0.3rem);
+}
+
+.fifthPage {
+  height: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+@media only screen and (max-width: 600px) {
+  .fifthPage {
+    height: auto;
+  }
+}
+.fifthPage-touch {
+  font-size: 3rem;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  transition: all 0.4s;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  padding: 2rem;
+}
+.fifthPage-touch:hover {
+  color: var(--dark-color);
+}
+
+@media only screen and (max-width: 1200px) {
+  .fifthPage-touch {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .fifthPage-touch {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fifthPage-touch {
+    font-size: 4rem;
+    font-weight: 700;
+  }
+}
+.fifthPage-text {
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .fifthPage-text {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .fifthPage-text {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fifthPage-text {
+    font-size: 2.3rem;
+  }
+}
+.fifthPage-para {
+  font-size: 1rem;
+  padding: 2rem;
+}
+@media only screen and (max-width: 1200px) {
+  .fifthPage-para {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .fifthPage-para {
+    font-size: 1.7rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .fifthPage-para {
+    font-size: 1.4rem;
+  }
+}
+.fifthPage-link {
+  padding: 1.2rem 4rem;
+}

@@ -1,0 +1,11 @@
+.photossss {
+  width: 55%;
+  height: 25rem;
+  background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+  .photossss {
+    width: 100%;
+  }
+}

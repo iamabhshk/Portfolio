@@ -1,0 +1,22 @@
+.firstPage-main-photo-image {
+  margin-top: 5rem;
+  /* height: 31rem; */
+  animation: upper 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@media only screen and (max-width: 1200px) {
+  .firstPage-main-photo-image {
+    /* height: 41rem; */
+  }
+}
+@media only screen and (max-width: 900px) {
+  .firstPage-main-photo-image {
+    /* height: 45rem; */
+  }
+}
+@media only screen and (max-width: 600px) {
+  .firstPage-main-photo-image {
+    display: none;
+  }
+}

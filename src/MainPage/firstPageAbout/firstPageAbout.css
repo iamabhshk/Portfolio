@@ -1,0 +1,203 @@
+.firstPage-main-about {
+  display: flex;
+  flex-direction: column;
+  margin-left: 6rem;
+  margin-top: 14rem;
+  justify-content: left;
+  row-gap: 1rem;
+  align-items: left;
+}
+@media only screen and (max-width: 600px) {
+  .firstPage-main-about {
+    justify-content: left;
+    line-height: 5rem;
+    height: 100%;
+    align-items: left;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+}
+
+.firstPage-main-about-hi-mark {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.firstPage-main-about-abhishek {
+  font-size: 3.5rem;
+  line-height: 3rem;
+  font-weight: 600;
+  color: var(--light-color);
+  animation: left 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@media only screen and (max-width: 1200px) {
+  .firstPage-main-about-abhishek {
+    font-size: 4.2rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .firstPage-main-about-abhishek {
+    font-size: 3.5rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .firstPage-main-about-abhishek {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .firstPage-main-about-abhishek {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+.firstPage-main-about-abhishek-mark {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.firstPage-main-about-text {
+  color: var(--light-color);
+  font-size: 1.3rem;
+  margin-top: 0.3rem;
+  animation: right 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+@media only screen and (max-width: 1200px) {
+  .firstPage-main-about-text {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .firstPage-main-about-text {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .firstPage-main-about-text {
+    font-size: 2rem;
+    line-height: 2.6rem;
+    text-align: center;
+    /* width: 80%; */
+  }
+}
+@media only screen and (max-width: 350px) {
+  .firstPage-main-about-text {
+    font-size: 2.2rem;
+    line-height: 2.4rem;
+  }
+}
+.firstPage-main-about-text-frontmark {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.firstPage-main-about-text-uimark {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.firstPage-main-about-btns {
+  text-decoration: none;
+  color: #f8eded;
+}
+.firstPage-main-about-btn {
+  color: black;
+  font-weight: 900;
+  font-size: 1rem;
+  text-align: center;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  margin-top: 20px;
+  border: none;
+  transition: all 0.4s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.623);
+  animation: lower 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@media only screen and (max-width: 1200px) {
+  .firstPage-main-about-btn {
+    padding: 1.6rem;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .firstPage-main-about-btn {
+    padding: 1.8rem 4rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .firstPage-main-about-btn {
+    padding: 2rem 10rem;
+    font-size: 1.3rem;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .firstPage-main-about-btn {
+    padding: 1.5rem 6rem;
+    font-size: 1rem;
+    width: 50%;
+  }
+}
+.firstPage-main-about-btn:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    var(--dark-color)
+  );
+  transform: scale(1.1);
+}
+.firstPage-main-about-btn:active {
+  transform: translateY(0.3rem);
+}
+.firstPage-main-about-links {
+  display: flex;
+  margin-top: 5rem;
+  animation: links 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+}
+@media only screen and (max-width: 900px) {
+  .firstPage-main-about-links {
+    margin-top: 7rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .firstPage-main-about-links {
+    margin-top: 7rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .firstPage-main-about-links {
+    margin-top: 5rem;
+  }
+}

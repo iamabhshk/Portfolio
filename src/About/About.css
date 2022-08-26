@@ -1,0 +1,12 @@
+.secondPage {
+  display: flex;
+  background-color: var(--light-color);
+  overflow: hidden;
+  height: auto;
+}
+@media only screen and (max-width: 600px) {
+  .secondPage {
+    flex-direction: column;
+    height: inherit;
+  }
+}

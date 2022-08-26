@@ -1,0 +1,26 @@
+.projectss-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 1rem;
+}
+
+.projectss-right-titles {
+  font-size: 2rem;
+  color: rgb(23, 31, 58);
+}
+
+.projectss-right-paragraph {
+  line-height: 1.2rem;
+  text-align: left;
+  width: 90%;
+  color: rgb(23, 31, 58);
+}
+
+.projectss-right-tech {
+  display: flex;
+  column-gap: 2rem;
+  font-size: 0.9rem;
+  color: rgb(23, 31, 58);
+}

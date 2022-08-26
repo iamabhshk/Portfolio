@@ -1,0 +1,108 @@
+:root {
+  --primary-color: #00ffff;
+  --dark-color: #252525;
+  --light-color: #fcecdd;
+  --skill-color1: #ff0099;
+  --skill-color2: #ffc700;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--dark-color);
+  transition: top 0.3s;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    width: 100%;
+  }
+}
+.header-logo-img {
+  width: 15%;
+  display: flex;
+  margin-left: 10rem;
+  animation: right 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+@media only screen and (max-width: 600px) {
+  .header-logo {
+    margin-left: 1.4rem;
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header-logo {
+    width: 45%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header-logo {
+    width: 45%;
+  }
+}
+.header-navigation {
+  display: flex;
+  flex: 0 0 45%;
+  justify-content: space-around;
+  animation: lower 2s;
+  animation-delay: 0.2s;
+  animation-timing-function: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+@media only screen and (max-width: 1200px) {
+  .header-navigation {
+    flex: 0 0 50%;
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header-navigation {
+    flex: 0 0 50%;
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .header-navigation {
+    flex: 0 0 100%;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 1rem;
+  }
+}
+.header-navigation-link {
+  text-decoration: none;
+  color: #f8eded;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+@media only screen and (max-width: 600px) {
+  .header-navigation-link {
+    flex: 0 0 0%;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header-navigation-link {
+    font-size: 1.6rem;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .header-navigation-link {
+    flex: 0 0 20%;
+    font-size: 1.6rem;
+  }
+}
+.header-navigation-link:hover {
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  -webkit-background-clip: text;
+  color: transparent;
+}

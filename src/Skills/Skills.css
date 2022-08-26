@@ -1,0 +1,164 @@
+.skillsset {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: var(--dark-color);
+}
+
+@media only screen and (max-width: 600px) {
+  .skillsset {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5rem;
+  }
+}
+
+.skills {
+  display: flex;
+  /* flex-direction: column; */
+
+  align-items: center;
+  justify-content: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.skills-title {
+  font-size: 3.5rem;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--primary-color),
+    #035d91
+  );
+  text-align: center;
+  transition: all 0.4s;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.skills-title:hover {
+  color: var(--light-color);
+}
+
+.skills-para {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+  color: var(--light-color);
+}
+
+@media only screen and (max-width: 900px) {
+  .skills-para {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-para {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+
+.skills-para p {
+  text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+  .skills-para p {
+    text-align: center;
+  }
+}
+
+.skills-left {
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  /* flex: 0 0 60%; */
+  text-align: center;
+  align-items: center;
+  /* text-align: center; */
+}
+
+.skills-right {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.skills-right span {
+  padding: 0.6rem 0.8rem;
+  background-color: rgb(250, 250, 250);
+  margin: 0.5rem;
+  border: 0.1px solid rgb(230, 230, 230);
+  border-radius: 7px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/* body {
+    background-color: #000
+  } */
+
+.tagcloud {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  margin: auto;
+  overflow: hidden;
+  /* width: 100%; */
+}
+
+@media only screen and (min-width: 1400px) {
+  .tagcloud {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .tagcloud {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .tagcloud {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tagcloud {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .tagcloud {
+    font-size: 10px;
+  }
+}
+
+.tagcloud--item:hover {
+  color: #36454f;
+}
+
+@media only screen and (max-width: 900px) {
+  .tagcloud {
+    /* width: 100%; */
+  }
+}
+
+strong[style] {
+  width: 0px !important;
+}
