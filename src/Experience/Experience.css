@@ -78,6 +78,12 @@
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .experience_main-contents-content-title h4 {
+    font-size: 1rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .experience_main-contents-content-title h4 {
     font-size: 1.2rem;

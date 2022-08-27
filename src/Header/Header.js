@@ -1,4 +1,5 @@
 import logo from "../img/Logo.png";
+import resume from "../img/Abhishek's Resume.pdf";
 import "../Header/Header.css";
 
 const Header = () => {
@@ -20,8 +21,9 @@ const Header = () => {
         </a>
         <a
           className="header-navigation-link"
-          href="/img/Abhishek's Resume.pdf"
+          href={resume}
           target="_blank"
+          rel="noreferrer"
         >
           Resume
         </a>
