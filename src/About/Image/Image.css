@@ -60,23 +60,23 @@
 .about-image {
   margin-top: 2rem;
   border-radius: 50%;
-  width: 60%;
-  background-size: cover;
-  /* height: 3rem; */
+  width: 80%;
+  background-size:cover;
+  height: 45%;
 }
 @media only screen and (max-width: 1200px) {
   .about-image {
-    width: 60%;
+    width: 80%;
   }
 }
 @media only screen and (max-width: 900px) {
   .about-image {
-    width: 60%;
+    width: 70%;
   }
 }
 @media only screen and (max-width: 600px) {
   .about-image {
     /* height: 80%; */
-    width: 35%;
+    width: 40%;
   }
 }

@@ -1,6 +1,7 @@
 .experience {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   text-align: center;
   row-gap: 4rem;
@@ -28,7 +29,14 @@
 .experience_main {
   display: flex;
   text-align: center;
-  align-items: center;
+  justify-content: center;
+  align-items:center;
+}
+
+@media only screen and (max-width: 600px) {
+  .experience_main {
+    flex-direction: column;
+  }
 }
 
 .experience_main-contents {

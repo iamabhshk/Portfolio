@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef} from "react";
 import "../Skills/Skills.css";
 
 const Skills = () => {
@@ -11,15 +11,11 @@ const Skills = () => {
         "JavaScript",
         "CSS",
         "SASS",
-        "TypeScript",
         "ES6",
         "Bootstrap",
         "HTML",
-        "C++",
         "React",
-        "Python",
         "GIT",
-        "Figma",
         "NPM",
         "JSON",
         "REST",
@@ -56,23 +52,15 @@ const Skills = () => {
       <div className="skills reveal fade-bottom">
         <div className="skills-left">
           <div className="skills-para fade-bottom">
-            <p>My main area of expertise is Front-End Development</p>
             <p>
-              I have worked on many projects which are mentioned below to
-              practice my skills. I started from making clones of popluar
-              websites like shazam, spotify then followed by my very own weather
-              website, covid tracking website and finally a cryptocurrency
-              analyzer and many more to practice HTML, CSS (with SASS),
-              JavaScript(TypeScript) with ReactJS powered with NPm package
-              mangement system.
+            Front-End Development: Proficient in creating responsive and user-friendly web applications using HTML, CSS (including SASS), and JavaScript (with TypeScript) with a focus on ReactJS, leveraging the NPm package management system.
             </p>
             <p>
-              {" "}
-              For all the projects I used figma to design the UI of the website
+            Backend Development: Experienced in developing server-side applications with Node.js and Express, utilizing RESTful APIs to facilitate seamless communication between the front-end and backend components.
             </p>
+            
             <p>
-              You may visit my Linkedin for more information and my projects at
-              Github
+            For a comprehensive overview of my work and additional projects, please refer to my LinkedIn profile and GitHub repository.
             </p>
           </div>
         </div>
