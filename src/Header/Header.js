@@ -1,5 +1,5 @@
 import logo from "../img/Logo.png";
-import resume from "../img/Abhishek's Resume.pdf";
+import resume from "../img/Abhishek Srinivasan Resume.pdf";
 import "../Header/Header.css";
 
 const Header = () => {

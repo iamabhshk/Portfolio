@@ -5,21 +5,20 @@ const Projectcontent = () => {
   return (
     <div>
       <div className="projectss-left reveal  fade-bottom ">
-        <h1 className="projectss-left-titles">Weatheroid</h1>
+        <h1 className="projectss-left-titles">SquadCode</h1>
         <span className="projectss-left-paragraph">
-          A simple webiste where you can find all the necessary weather details
-          like wind speed, precipitation, cloud cover and many more of a
-          particular city you search in a single page without going to multiple
-          pages, also with a very clean and user-friendly UI.
+          I created a user-friendly coding interface with code highlighting and
+          auto-indentation. I used socket.io for real-time data sync among
+          users, enhancing collaboration. The app was built with React Hooks for
+          efficiency. Additionally, I added a real-time chat feature for
+          effective communication during coding collaboration.
         </span>
         <span className="projectss-left-tech">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>SASS</span>
-          <span>NPM</span>
+          <span>ReactJS</span>
+          <span>NodeJS</span>
+          <span>Socket.io</span>
         </span>
-        <a href="https://weatheroid.netlify.app/" target="_blank">
+        <a href="https://squadcode.vercel.app/" target="_blank">
           Click here
         </a>
         {/* <div className="projectss-left-links">

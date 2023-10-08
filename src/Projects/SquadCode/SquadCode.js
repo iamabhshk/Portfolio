@@ -1,8 +1,8 @@
 import Projectimage from "./Projectleftimage/Projectleftimage";
 import Projectcontent from "./Projectleftcontent/Projectleftcontent";
-import "./Weatheroid.css";
+import "./SquadCode.css";
 
-const Weatheroid = () => {
+const SquadCode = () => {
   return (
     <div className="projects ">
       <div className="projects-content-left">
@@ -13,4 +13,4 @@ const Weatheroid = () => {
   );
 };
 
-export default Weatheroid;
+export default SquadCode;

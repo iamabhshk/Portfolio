@@ -1,7 +1,7 @@
-import Weatheroid from "./Weatheroid/Weatheroid";
-import Covidstat from "./Covidstat/Covidstat";
-import Crypto from "./Crypto/Crypto";
-import Unblock from "./Unblock/Unblock";
+import SquadCode from "./SquadCode/SquadCode";
+import Pixzzi from "./Pixzzi/Pixzzi";
+import FilterPaper from "./FilterPaper/FilterPaper";
+import Fortify from "./Fortify/Fortify";
 import Number from "./Number/Number";
 import "../Projects/Projects.css";
 
@@ -27,10 +27,10 @@ const Projects = () => {
   return (
     <div className="projectsss" id="projects">
       <h1 className="projects-title">Projects</h1>
-      <Weatheroid />
-      <Crypto />
-      <Unblock />
-      <Covidstat />
+      <SquadCode />
+      <FilterPaper />
+      <Fortify />
+      <Pixzzi />
       <Number />
     </div>
   );

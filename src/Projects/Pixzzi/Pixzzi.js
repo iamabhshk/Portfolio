@@ -1,7 +1,7 @@
 // import Picture from "../Projects/Picture/Picture";
 import Projectimage from "./Projectrightimage/Projectrightimage";
 import Projectcontent from "./Projectrightcontent/Projectrightcontent";
-import "./Covidstat.css";
+import "./Pixzzi.css";
 
 const Covidstat = () => {
   return (

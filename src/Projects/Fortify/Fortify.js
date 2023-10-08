@@ -1,8 +1,8 @@
 import Projectimage from "./Projectleftimage/Projectleftimage";
 import Projectcontent from "./Projectleftcontent/Projectleftcontent";
-import "./Unblock.css";
+import "./Fortify.css";
 
-const Unblock = () => {
+const Fortify = () => {
   return (
     <div className="projects">
       <div className="projects-content-left">
@@ -13,4 +13,4 @@ const Unblock = () => {
   );
 };
 
-export default Unblock;
+export default Fortify;
