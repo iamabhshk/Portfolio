@@ -1,5 +1,5 @@
 import "../firstPageAbout/firstPageAbout.css";
-import labels from './taggr/labels.json';
+import labels from '../../taggr/labels.json';
 
 const firstPageAbout = () => {
   return (
