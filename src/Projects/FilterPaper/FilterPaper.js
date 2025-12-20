@@ -1,9 +1,9 @@
 // import Picture from "../Projects/Picture/Picture";
 import Projectimage from "./Projectrightimage/Projectrightimage";
 import Projectcontent from "./Projectrightcontent/Projectrightcontent";
-import "./Crypto.css";
+import "./FilterPaper.css";
 
-const Crypto = () => {
+const FilterPaper = () => {
   return (
     <div className="projects">
       <div className="projects-content-right">
@@ -14,4 +14,4 @@ const Crypto = () => {
   );
 };
 
-export default Crypto;
+export default FilterPaper;

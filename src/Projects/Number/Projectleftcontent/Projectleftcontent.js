@@ -17,6 +17,7 @@ const Projectcontent = () => {
           <span>JavaScript</span>
           <span>SASS</span>
           <span>NPM</span>
+          <span>DOM Mainpulation</span>
         </span>
         <a href="https://numberluck.netlify.app/" target="_blank">
           Click here
