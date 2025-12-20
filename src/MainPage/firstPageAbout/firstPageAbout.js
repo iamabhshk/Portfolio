@@ -1,4 +1,5 @@
 import "../firstPageAbout/firstPageAbout.css";
+import labels from './taggr/labels.json';
 
 const firstPageAbout = () => {
   return (
@@ -14,7 +15,7 @@ const firstPageAbout = () => {
         Making webistes aestheic since 2 years now as a
         <br />
         <a className="firstPage-main-about-text-frontmark">
-          Frontend Developer
+          {labels.dashboarderrormessage}
         </a>
       </span>
       <a className="firstPage-main-about-btns" href="#aboutme">
