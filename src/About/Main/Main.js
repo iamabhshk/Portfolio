@@ -1,9 +1,9 @@
-import education from "../../img/edu.png";
-import acting from "../../img/acting.png";
-import person from "../../img/person.png";
-import google from "../../img/embed (1).svg";
-import sic from "../../img/embed.svg";
-import "../Main/Main.css";
+import education from '../../img/edu.png';
+import acting from '../../img/acting.png';
+import person from '../../img/person.png';
+import google from '../../img/embed (1).svg';
+import sic from '../../img/embed.svg';
+import '../Main/Main.css';
 
 const Main = () => {
   return (
@@ -20,7 +20,7 @@ const Main = () => {
           <div className="main-activity-btech-infoArea">
             <img
               src={education}
-              alt=""
+              alt="Education icon"
               className="main-activity-btech-infoArea-image"
             />
             <div className="main-activity-btech-infoArea-college">
@@ -39,7 +39,7 @@ const Main = () => {
           <div className="main-activity-btech-infoArea">
             <img
               src={acting}
-              alt=""
+              alt="Theatre icon"
               className="main-activity-btech-infoArea-image"
             />
             <div className="main-activity-btech-infoArea-college">
@@ -54,7 +54,7 @@ const Main = () => {
           <div className="main-activity-btech-infoArea">
             <img
               src={person}
-              alt=""
+              alt="Person icon"
               className="main-activity-btech-infoArea-image"
             />
             <div className="main-activity-btech-infoArea-college">
@@ -69,7 +69,7 @@ const Main = () => {
           <div className="main-activity-btech-infoArea">
             <img
               src={google}
-              alt=""
+              alt="Google Developer Students Club icon"
               className="main-activity-btech-infoArea-image"
             />
             <div className="main-activity-btech-infoArea-college">
@@ -84,7 +84,7 @@ const Main = () => {
           <div className="main-activity-btech-infoArea">
             <img
               src={sic}
-              alt=""
+              alt="Summer Internship Club icon"
               className="main-activity-btech-infoArea-image"
             />
             <div className="main-activity-btech-infoArea-college">

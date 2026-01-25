@@ -1,8 +1,14 @@
-import fortify from "../../../img/fortify.png";
-import "./Projectleftimage.css";
+import fortify from '../../../img/fortify.png';
+import './Projectleftimage.css';
 
-const Projectimage = () => {
-  return <img src={fortify} className="photossss  reveal fade-left" />;
+const ProjectImage = () => {
+  return (
+    <img 
+      src={fortify} 
+      alt="Fortify chat application" 
+      className="photossss reveal fade-left" 
+    />
+  );
 };
 
-export default Projectimage;
+export default ProjectImage;

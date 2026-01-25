@@ -1,16 +1,16 @@
-import "../MainPage/MainPage.css";
-import FirstPageImage from "./firstPageImage/firstPageImage";
-import FirstPageAbout from "./firstPageAbout/firstPageAbout";
+import '../MainPage/MainPage.css';
+import FirstPageAbout from './firstPageAbout/firstPageAbout';
+import FirstPageImage from './firstPageImage/firstPageImage';
 
-const Mainpage = () => {
+const MainPage = () => {
   return (
-    <div className="firstPage" id="home">
+    <section className="firstPage" id="home">
       <div className="firstPage-main">
         <FirstPageAbout />
         <FirstPageImage />
       </div>
-    </div>
+    </section>
   );
 };
 
-export default Mainpage;
+export default MainPage;

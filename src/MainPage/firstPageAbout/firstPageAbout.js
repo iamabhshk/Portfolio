@@ -1,25 +1,25 @@
-import "../firstPageAbout/firstPageAbout.css";
-import labels from "../../taggr/labels.json";
+import '../firstPageAbout/firstPageAbout.css';
+import labels from '../../taggr/labels.json';
 
-const firstPageAbout = () => {
+const FirstPageAbout = () => {
   return (
-    <div className="firstPage-main-about ">
-      <span className="firstPage-main-about-abhishek">
+    <div className="firstPage-main-about">
+      <h1 className="firstPage-main-about-abhishek">
         Hi! I Am
         <br />
         <span className="firstPage-main-about-abhishek-mark">
           Abhishek Srinivasan
         </span>
-      </span>
-      <span className="firstPage-main-about-text">
-        Making webistes aestheic since 2 years now as a
+      </h1>
+      <p className="firstPage-main-about-text">
+        Making websites aesthetic since 2 years now as a
         <br />
-        <a className="firstPage-main-about-text-frontmark">
+        <span className="firstPage-main-about-text-frontmark">
           {labels.dashboarderrormessage}
-        </a>
-      </span>
-      <a className="firstPage-main-about-btns" href="#aboutme">
-        <button className="firstPage-main-about-btn" href="#aboutme">
+        </span>
+      </p>
+      <a className="firstPage-main-about-btns" href="#aboutme" aria-label="Navigate to about section">
+        <button className="firstPage-main-about-btn" type="button">
           About me
         </button>
       </a>
@@ -27,4 +27,4 @@ const firstPageAbout = () => {
   );
 };
 
-export default firstPageAbout;
+export default FirstPageAbout;

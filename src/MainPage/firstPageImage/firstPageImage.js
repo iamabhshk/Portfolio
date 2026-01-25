@@ -1,12 +1,16 @@
-import photos from "../../img/photobgm.png";
-import "../firstPageImage/firstPageImage.css";
+import photos from '../../img/photobgm.png';
+import '../firstPageImage/firstPageImage.css';
 
-const firstPageImage = () => {
+const FirstPageImage = () => {
   return (
-    <div className="firstPage-main-photo ">
-      <img src={photos} alt="Background Picture" className="firstPage-main-photo-image" />
+    <div className="firstPage-main-photo">
+      <img 
+        src={photos} 
+        alt="Abhishek Srinivasan professional background" 
+        className="firstPage-main-photo-image" 
+      />
     </div>
   );
 };
 
-export default firstPageImage;
+export default FirstPageImage;

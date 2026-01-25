@@ -1,8 +1,14 @@
-import filterpaper from "../../../img/filterpaper.png";
-import "./Projectrightimage.css";
+import filterpaper from '../../../img/filterpaper.png';
+import './Projectrightimage.css';
 
-const Projectimage = () => {
-  return <img src={filterpaper} className="photossss  reveal fade-right" />;
+const ProjectImage = () => {
+  return (
+    <img 
+      src={filterpaper} 
+      alt="Filter Paper photo editing application" 
+      className="photossss reveal fade-right" 
+    />
+  );
 };
 
-export default Projectimage;
+export default ProjectImage;

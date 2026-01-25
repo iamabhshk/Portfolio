@@ -1,42 +1,32 @@
-import "./App.css";
-import Header from "./Header/Header";
-import Mainpage from "./MainPage/MainPage";
-import About from "./About/About";
-import Projects from "./Projects/Projects";
-import Skills from "./Skills/Skills";
-import Contact from "./Contact/Contact";
-import Footer from "./Footer/Footer";
-import Experience from "./Experience/Experience";
+import './App.css';
+import { useScrollReveal } from './hooks/useScrollReveal';
+import { SCROLL_REVEAL_OFFSET } from './constants';
+import Header from './Header/Header';
+import MainPage from './MainPage/MainPage';
+import About from './About/About';
+import Skills from './Skills/Skills';
+import Experience from './Experience/Experience';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
+import BackToTop from './components/BackToTop/BackToTop';
+import ScrollIndicator from './components/ScrollIndicator/ScrollIndicator';
 
 function App() {
-  function reveal() {
-    var reveals = document.querySelectorAll(".reveal");
-
-    for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
-      var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 150;
-
-      if (elementTop < windowHeight - elementVisible) {
-        reveals[i].classList.add("active");
-      } else {
-        reveals[i].classList.remove("active");
-      }
-    }
-  }
-
-  window.addEventListener("scroll", reveal);
+  useScrollReveal(SCROLL_REVEAL_OFFSET);
 
   return (
     <div className="App">
+      <ScrollIndicator />
       <Header />
-      <Mainpage />
+      <MainPage />
       <About />
       <Skills />
       <Experience />
       <Projects />
       <Contact />
       <Footer />
+      <BackToTop />
     </div>
   );
 }

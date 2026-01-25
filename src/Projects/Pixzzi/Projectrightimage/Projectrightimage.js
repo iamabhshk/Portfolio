@@ -1,8 +1,14 @@
-import pixzzi from "../../../img/pixzzi.png";
-import "./Projectrightimage.css";
+import pixzzi from '../../../img/pixzzi.png';
+import './Projectrightimage.css';
 
-const Projectimage = () => {
-  return <img src={pixzzi} className="photossss  reveal fade-right" />;
+const ProjectImage = () => {
+  return (
+    <img 
+      src={pixzzi} 
+      alt="Pixzzi image search and download platform" 
+      className="photossss reveal fade-right" 
+    />
+  );
 };
 
-export default Projectimage;
+export default ProjectImage;

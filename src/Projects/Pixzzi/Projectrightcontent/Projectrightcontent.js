@@ -1,36 +1,33 @@
-import "./Projectrightcontent.css";
-// import github from "../../../img/SVG/";
+import './Projectrightcontent.css';
 
-const Projectcontent = () => {
+const ProjectContent = () => {
+  const technologies = ['REACTJS', 'CSS', 'AXIOS'];
+  const projectUrl = 'https://pixzzi.vercel.app/';
+
   return (
-    <div>
-      <div className="projectss-right  reveal fade-bottom">
-        <h1 className="projectss-right-titles">Pixzzi</h1>
-        <span className="projectss-right-paragraph">
-          Pixzzi is a user-friendly website with a diverse collection of
-          high-quality images for free download. It offers advanced filtering
-          and intelligent search options, making it easy for users to find and
-          download images for their creative projects.
-        </span>
-        <span className="projectss-right-tech">
-          <span>REACTJS</span>
-          <span>CSS</span>
-          <span>AXIOS</span>
-        </span>
-        <a href="https://pixzzi.vercel.app/" target="_blank">
-          Click here
-        </a>
-        {/* <div className="projectss-left-links">
-          <a href="www.github.com">
-            <img src={github} />
-          </a>
-          <a>
-            <img src={github} />
-          </a>
-        </div> */}
+    <div className="projectss-right reveal fade-bottom">
+      <h2 className="projectss-right-titles">Pixzzi</h2>
+      <p className="projectss-right-paragraph">
+        Pixzzi is a user-friendly website with a diverse collection of
+        high-quality images for free download. It offers advanced filtering
+        and intelligent search options, making it easy for users to find and
+        download images for their creative projects.
+      </p>
+      <div className="projectss-right-tech" role="list" aria-label="Technologies used">
+        {technologies.map((tech, index) => (
+          <span key={index} role="listitem">{tech}</span>
+        ))}
       </div>
+      <a 
+        href={projectUrl} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="Visit Pixzzi project"
+      >
+        Click here
+      </a>
     </div>
   );
 };
 
-export default Projectcontent;
+export default ProjectContent;

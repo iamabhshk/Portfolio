@@ -1,8 +1,14 @@
-import weatheroid from "../../../img/numberguess.png";
-import "./Projectleftimage.css";
+import numberGuess from '../../../img/numberguess.png';
+import './Projectleftimage.css';
 
-const Projectimage = () => {
-  return <img src={weatheroid} className="photossss  reveal fade-left" />;
+const ProjectImage = () => {
+  return (
+    <img 
+      src={numberGuess} 
+      alt="Number Guessing Game application" 
+      className="photossss reveal fade-left" 
+    />
+  );
 };
 
-export default Projectimage;
+export default ProjectImage;

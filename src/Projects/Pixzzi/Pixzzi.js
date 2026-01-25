@@ -1,17 +1,16 @@
-// import Picture from "../Projects/Picture/Picture";
-import Projectimage from "./Projectrightimage/Projectrightimage";
-import Projectcontent from "./Projectrightcontent/Projectrightcontent";
-import "./Pixzzi.css";
+import './Pixzzi.css';
+import ProjectImage from './Projectrightimage/Projectrightimage';
+import ProjectContent from './Projectrightcontent/Projectrightcontent';
 
-const Covidstat = () => {
+const Pixzzi = () => {
   return (
-    <div className="projects">
+    <article className="projects">
       <div className="projects-content-right">
-        <Projectimage />
-        <Projectcontent />
+        <ProjectImage />
+        <ProjectContent />
       </div>
-    </div>
+    </article>
   );
 };
 
-export default Covidstat;
+export default Pixzzi;

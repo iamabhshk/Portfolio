@@ -1,16 +1,15 @@
-// import Picture from "../Projects/Picture/Picture";
-import Projectimage from "./Projectrightimage/Projectrightimage";
-import Projectcontent from "./Projectrightcontent/Projectrightcontent";
-import "./FilterPaper.css";
+import './FilterPaper.css';
+import ProjectImage from './Projectrightimage/Projectrightimage';
+import ProjectContent from './Projectrightcontent/Projectrightcontent';
 
 const FilterPaper = () => {
   return (
-    <div className="projects">
+    <article className="projects">
       <div className="projects-content-right">
-        <Projectimage />
-        <Projectcontent />
+        <ProjectImage />
+        <ProjectContent />
       </div>
-    </div>
+    </article>
   );
 };
 

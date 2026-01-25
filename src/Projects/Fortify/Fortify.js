@@ -1,15 +1,15 @@
-import Projectimage from "./Projectleftimage/Projectleftimage";
-import Projectcontent from "./Projectleftcontent/Projectleftcontent";
-import "./Fortify.css";
+import './Fortify.css';
+import ProjectImage from './Projectleftimage/Projectleftimage';
+import ProjectContent from './Projectleftcontent/Projectleftcontent';
 
 const Fortify = () => {
   return (
-    <div className="projects">
+    <article className="projects">
       <div className="projects-content-left">
-        <Projectimage />
-        <Projectcontent />
+        <ProjectImage />
+        <ProjectContent />
       </div>
-    </div>
+    </article>
   );
 };
 

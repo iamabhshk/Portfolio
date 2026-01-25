@@ -1,13 +1,13 @@
-import "../About/About.css";
-import Main from "./Main/Main";
-import Image from "./Image/Image";
+import '../About/About.css';
+import Main from './Main/Main';
+import Image from './Image/Image';
 
 const About = () => {
   return (
-    <div className="secondPage" id="aboutme">
+    <section className="secondPage" id="aboutme">
       <Image />
       <Main />
-    </div>
+    </section>
   );
 };
 

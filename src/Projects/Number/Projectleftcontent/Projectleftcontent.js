@@ -1,38 +1,32 @@
-import "./Projectleftcontent.css";
-// import github from "/home/abhshk/Desktop/ReactJS/portfolio/src/img/SVG/github.svg";
+import './Projectleftcontent.css';
 
-const Projectcontent = () => {
+const ProjectContent = () => {
+  const technologies = ['HTML', 'CSS', 'JavaScript', 'SASS', 'NPM', 'DOM Manipulation'];
+  const projectUrl = 'https://numberluck.netlify.app/';
+
   return (
-    <div>
-      <div className="projectss-left  reveal fade-bottom">
-        <h1 className="projectss-left-titles">Number Guessing Game</h1>
-        <span className="projectss-left-paragraph">
-          A basic number quessing game which is made completley using pure
-          JavaScript and specially DOM mainpulation. This was basically my first
-          project using JavaScript when I first finished a course on JavaScript
-        </span>
-        <span className="projectss-left-tech">
-          <span>HTML</span>
-          <span>CSS</span>
-          <span>JavaScript</span>
-          <span>SASS</span>
-          <span>NPM</span>
-          <span>DOM Mainpulation</span>
-        </span>
-        <a href="https://numberluck.netlify.app/" target="_blank">
-          Click here
-        </a>
-        {/* <div className="projectss-left-links">
-          <a href="www.github.com">
-            <img src={github} />
-          </a>
-          <a>
-            <img src={github} />
-          </a>
-        </div> */}
+    <div className="projectss-left reveal fade-bottom">
+      <h2 className="projectss-left-titles">Number Guessing Game</h2>
+      <p className="projectss-left-paragraph">
+        A basic number guessing game which is made completely using pure
+        JavaScript and specifically DOM manipulation. This was basically my first
+        project using JavaScript when I first finished a course on JavaScript.
+      </p>
+      <div className="projectss-left-tech" role="list" aria-label="Technologies used">
+        {technologies.map((tech, index) => (
+          <span key={index} role="listitem">{tech}</span>
+        ))}
       </div>
+      <a 
+        href={projectUrl} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        aria-label="Visit Number Guessing Game project"
+      >
+        Click here
+      </a>
     </div>
   );
 };
 
-export default Projectcontent;
+export default ProjectContent;
